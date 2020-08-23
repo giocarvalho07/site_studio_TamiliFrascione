@@ -471,6 +471,169 @@ iframe{
 }
 
 
+
+
+
+@media (max-width: 420px) 
+{
+
+    #carrossel{
+        display: none;
+        
+    }
+    
+    #sobre_studio{
+        height: 1400px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre_img{
+        height: 700px;
+        width: 700px;
+        display: flex;
+    }
+
+    .sobre_foto{
+        height: 450px;
+        width: 380px;
+        display: flex;
+    }
+
+    .sobre_text{
+        height: 700px;
+        width: 700px;
+        display: flex;  
+    }
+
+    #vantagens{
+        height: 1800px;
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caixaVantagens{
+        height: 1500px;
+        width: 700px;
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .link{
+        font-size: 36px;
+        margin-top: 120px;
+        font-weight: bolder;
+    }
+
+    .coment_vantagens{
+        display: none;
+    }
+
+    .line{
+    
+        width:50%;
+        height:2px;
+        margin-left:42vw;
+        margin-top: 1vw;
+        background-color:#EE2E5D; 
+        border:0;
+        border-top: 1px solid #EE2E5D; 
+    }
+
+    .endereco{
+        height: 600px;
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #serviços{
+        height: 5100px;
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .opçoesSobrancelha{
+        height: 4900px;
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        margin: 20px;
+    }
+
+    h5{
+        font-size: 40px;
+        font-weight: bolder;
+    }
+
+    .card-body{
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    #sobre_studio_video{
+        height: 1500px;
+        width: 700px;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+    }
+
+    .sobre_video_text{
+        height: 800px;
+        width: 700px;
+        display: flex;
+        flex-direction: column; 
+        font-size: 42px;
+        font-weight: bolder;
+    }
+
+    .sobre_text{
+        height: 800px;
+        width: 700px;
+        display: flex;
+        flex-direction: column; 
+    }
+
+    #clientes{
+        height: 4700px;
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .galeriaCliente{
+        height: 2200px;
+        width: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .galeriaCliente1{
+        height: 2200px;
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
 @media (max-width: 380px) 
 {
 
@@ -614,12 +777,6 @@ iframe{
         display: flex;
         flex-direction: column;
     }
-
-
-
-
-
-
 }
 
 
