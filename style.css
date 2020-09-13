@@ -258,7 +258,7 @@ h3.sobre_palavras{
 .opçoesSobrancelha{
     display:flex;
     align-items: center;
-    justify-content: space-evenly;   
+    justify-content: space-evenly; 
 }
 
 .opçoes{
@@ -363,9 +363,8 @@ h3.sobre_palavras{
     flex-direction: column; 
     justify-content: center;
     align-items: center;
-    background: -webkit-gradient(linear, left top, left bottom, from(#a4ebf5), to(#32A4B3));
-    background: -moz-linear-gradient(top, #575959, #575959);
-    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#CCCCCC', EndColorStr='#000000');
+    background-color:black;
+   
 }
 
 .galeriaCliente{
@@ -401,6 +400,8 @@ h3.sobre_palavras{
     display: flex;
     justify-content: center;
     align-items: center;
+    color:white;
+
 }
 
 .icon{
@@ -470,8 +471,90 @@ iframe{
     width: 100%;
 }
 
+/* ================================ contatos */
 
+#section-contatos{
+    width: 100%;
+    height: 700px;
+    background-color: teal;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.div-contatos{
+    width: 60%;
+    height: 650px;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#div-horizontal{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+
+#div-espacos{
+    margin: 20px;
+}
+
+/* ================================ serviços */
+
+#section-servicos{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: tomato;
+    flex-direction: column;
+}
+
+.div-servicos{
+    width: 75%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blue;
+}
+
+.div-servicos-cards{
+    width: 350px;
+    height: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: green;
+    flex-direction: column;
+}
+
+/* ================================ depoimentos */
+
+#section-servicos-textos{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: green;
+}
+
+#section-servicos-depoimentos{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: red; 
+}
 
 
 @media (max-width: 420px) 
@@ -612,6 +695,7 @@ iframe{
         width: 700px;
         display: flex;
         flex-direction: column;
+        
     }
 
     .galeriaCliente{
@@ -699,10 +783,12 @@ iframe{
         flex-direction: column;
     }
 
+
     footer{
         width: 650px;
         display: flex;
         flex-direction: column;
+        background-color: violet;
     }
 
     #serviços{
